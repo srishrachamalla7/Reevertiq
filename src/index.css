@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #FF4B45;
+  --secondary: #111827;
+}
+
+@layer base {
+  body {
+    @apply bg-[#0B0F1A] text-white font-inter;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 bg-[#FF4B45] hover:bg-[#FF3530] text-white font-semibold rounded-lg 
+           transition-all duration-300 inline-flex items-center gap-2;
+  }
+
+  .btn-secondary {
+    @apply px-6 py-3 bg-gray-800 hover:bg-gray-700 text-white font-semibold rounded-lg 
+           transition-all duration-300 inline-flex items-center gap-2 border border-gray-700;
+  }
+
+  .nav-link {
+    @apply relative text-gray-300 hover:text-white transition-colors duration-300;
+  }
+
+  .card {
+    @apply bg-gray-800/30 backdrop-blur-sm rounded-xl p-6 hover:bg-gray-800/50 
+           transition-all duration-300 border border-gray-800 hover:border-gray-700;
+  }
+
+  .section-title {
+    @apply text-4xl font-bold mb-4 text-white;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-[#FF4B45] to-[#FF8F8B] bg-clip-text text-transparent;
+  }
+}
