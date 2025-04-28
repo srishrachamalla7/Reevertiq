@@ -161,7 +161,7 @@ const Contact = () => {
             >
               <Phone className="h-8 w-8 text-primary group-hover:scale-110 transition-transform duration-300" />
               <h3 className="text-xl font-semibold mb-2 group-hover:text-primary transition-colors duration-300">Call Us</h3>
-              <p className="text-gray-300">+1 (555) 123-4567</p>
+              <p className="text-gray-300">+91 9849683257</p>
             </motion.div>
             
             <motion.div 
@@ -171,8 +171,9 @@ const Contact = () => {
               <MapPin className="h-8 w-8 text-primary group-hover:scale-110 transition-transform duration-300" />
               <h3 className="text-xl font-semibold mb-2 group-hover:text-primary transition-colors duration-300">Visit Us</h3>
               <p className="text-gray-300">
-                123 AI Innovation Center<br />
-                Silicon Valley, CA 94025
+                Hyderabad, India
+                <br />
+                500081
               </p>
             </motion.div>
           </motion.div>

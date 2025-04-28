@@ -14,7 +14,7 @@ const Footer = () => {
             <p className="text-gray-400 mb-4">
               Transforming businesses with advanced AI solutions.
             </p>
-            <div className="flex space-x-4">
+            {/* <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-primary transition-colors">
                 <Facebook className="h-5 w-5" />
               </a>
@@ -27,7 +27,7 @@ const Footer = () => {
               <a href="#" className="text-gray-400 hover:text-primary transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
-            </div>
+            </div> */}
           </div>
 
           {/* Quick Links */}
@@ -74,8 +74,8 @@ const Footer = () => {
             <h3 className="text-white font-semibold mb-4">Contact Us</h3>
             <ul className="space-y-2 text-gray-400">
               <li>contact@reevertiq.com</li>
-              <li>+1 (555) 123-4567</li>
-              <li>123 AI Innovation Center, Silicon Valley, CA 94025</li>
+              <li>+91 9849683257</li>
+              <li>Hyderabad, India</li>
             </ul>
           </div>
         </div>
